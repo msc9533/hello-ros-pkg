@@ -13,6 +13,6 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(testnode src/testnode.cpp)
+add_executable(testnode src/test.cpp)
 target_link_libraries(testnode ${catkin_LIBRARIES})
 
